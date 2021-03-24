@@ -1,4 +1,4 @@
-## aws-learning-data-engineering
+## AWS - Learning Data Enginneering ✍🏼
 
 
 ## Esse repositório foi criado com o intuito de centralizar as informações necessárias para iniciar nas certificações de AWS. Desde estudos como laboratórios e etc.
