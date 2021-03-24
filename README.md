@@ -9,4 +9,4 @@
 ## Todo o conteúdo vai ser dividido em pastas de acordo com a certificação específica e sempre atualizado conforme vou terminando os estudos.
 
 
-AWS CLOUD PRACTIONER -> Pasta aws_cloud_practioner
+[AWS CLOUD PRACTIONER](https://github.com/lucasfazzib/aws-learning-data-engineering/tree/main/aws_cloud_practioner) ✍🏼
