@@ -1,0 +1,28 @@
+IAM ( identity access management)
+
+user->Lucas_Fazzi
+csv
+
+
+IAM 
+    -> Its GLOBAL, you dont neew to specify a region when delaing with IAM.
+    -> When you create a user or group, this is CREATED GLOBALLY.
+
+
+ACCESS AWS PLATFORM 3 DIFFERENT WAYS:
+    -> VIA CONSOLE
+    -> PROGRAMMATICALLY(USING THE COMMAND LINE)
+    -> USING SOFTWARE DEVELOPERS KIT (SDKs)
+
+
+-> The root account is the EMAIL ADDRESS that you used to setup your aws account.
+-> The root account always has full admin access.
+-> You should always secure this root account using multi-factor authentication. (MFA)
+
+-> A GROUP is simply a place to store your users.
+-> Your users will inherit all permissions that the group has.
+-> Ex: developers, finance, HR...
+
+-> To set the permissions in a group you need to apply a policy to that group.
+-> Policies consists in JAVASCRIPT OBJECT NOTATION.
+-> These are referred to as key value pairs.

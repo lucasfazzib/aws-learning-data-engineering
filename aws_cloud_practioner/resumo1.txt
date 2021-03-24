@@ -1,0 +1,130 @@
+Cloud Concepts
+Security and Compliance
+Technology
+Billing and Pricing
+
+90 minutos
+65 questoes
+700/1000
+
+
+Whitpapers
+    Visão geral da Amazon Web Services 
+    Arquitetura para a nuvem: melhores práticas da AWS 
+    Como funciona a definição de preço da AWS 
+    Compare os planos do AWS Support
+
+    https://aws.amazon.com/pt/certification/certification-prep/?nc2=sb_ce_ep
+
+
+
+Cloud Computing & AWS
+
+What is cloud Computing 
+    - Cloud computing is the on-demand delivery of compute, database, storage, applications,
+    and other IT resources through a cloud services platform via the itnernet with pay-as-you-go-pricing.
+    
+    - Think of it as simply renting someone elses computer.
+
+6 ADVANTAGES OF CLOUD Computing
+
+    1) TRADE CAPITAL EXPENSE FOR VARIABLE EXPENSE   
+        -> You can pay only when you consume computing resources, and pay only for how much you use.
+
+    2) BENEFIT FROM MASSIVE ECONOMIES OF SCALE
+        -> You will never have the same purchasing power as Amazon.They literally build their own servers.
+
+    3) STOP GUESSING ABOUT CAPACITY
+        -> You will probally either to buy too much or too little.
+        -> If you buy too much, you've wasted money and if you buy too little you will have
+        down time.
+        -> Cloud can scale with you business needs, with no long term contracts.
+
+    4) INCREASE YOUR SPEED AND AGILITY
+        -> The great think about cloud is that you can increase you speed and agility in moving into the 
+        cloud.
+
+    5) STOP SPENDING MONEY RUNNING AND MAINTAINING DATA CENTERS.
+        -> Focus on what you are good at, not at managing infrastructure. Let someone else manage that 
+        for you.
+
+    6) GO GLOBAL IN MINUTES
+        -> Easily deploy your application in multiple regions around the world with just a few clicks.
+        -> This means you can provide lower latency and a better experience for your customers at 
+        minimal cost.
+    
+
+3 different types of cloud computing
+    -> INFRASTRUCTURE AS A SERVICE (IAAS)
+        -> Basically is AWS.
+        -> You manage the server wich can be physical or virtual, as well as the operating system.
+        -> Usually the data center provider will have no access to your server.
+        -> ex: EC2....
+
+    -> PLATFORM AS A SERVICE (PASS)
+        -> Someone else manages the underlying hardware and operating systems.
+        -> You just focues on your applications.
+        -> Someone else worries about security/patching, updates, maintenance.
+        -> ex: ElasticBeanstalk, Lightsail....
+
+    -> SOFTWARE AS A SERVICE (SAAS)
+        -> Think of gmail.
+        -> All you amnage is your inbox.
+        -> Google take care of the data centers, servers, network...all you worry about is the software
+        itselfand how to sue it.
+
+3 TYPES OF CLOUD COMPUTING DEPLOYMENTS
+    -> PUBLIC CLOUD
+        -AWS
+        -GCP
+        -AZURE
+    
+    -> HYBRID
+        -Misture of private and cloud
+    
+    -> PRIVATE (*ON-PREMISE)
+        - You manage it, in your datacenter.
+        - OPENSTACK, VMWARE, microsofts HyperV
+
+
+SERVICES ( CLOUD PRACTIONER certification)
+    - compute
+        - EC2
+        - LAMBDA
+
+    - database
+        - RDS
+        - DYNAMODB
+
+    - storage
+        - Simple Storage Services(s3)
+        - Glacier
+
+    - migration & transfer ( PROBALLY OUT)
+    - network & content delivery ( PROBALLY OUT)
+
+    - security, identity & Compliance
+        - VPC
+        ROUTE 53 (AMAZON DNS SERVERS)
+
+    - AWS cost management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

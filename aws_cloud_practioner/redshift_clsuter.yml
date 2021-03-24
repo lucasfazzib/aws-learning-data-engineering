@@ -1,0 +1,27 @@
+## Criar template para cluster REDSHIFT
+
+
+Resources:
+
+  RedShiftCluster:
+    Type: AWS::Redshift::Cluster
+    Properties:
+      AllowVersionUpgrade: true
+      AutomatedSnapshotRetentionPeriod: 5
+      AvailabilityZone: sa-east-1
+      ClusterIdentifier: my-redshift-cluster
+      ClusterParameterGroupName: 
+      ClusterSubnetGroupName:
+      VpcSecurityGroupIds:
+        -
+      
+      ClusterType: multi-node
+      DBName: dev
+      Encrypted: true
+      MasterUsername: admin
+      MasterUserPassword: Admin1234
+      NodeType: dc2.large
+      NumberOfNodes: 2
+      PubliclyAccessible: true
+      IamRoles:
+        -

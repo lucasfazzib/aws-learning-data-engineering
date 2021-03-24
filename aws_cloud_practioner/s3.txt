@@ -1,0 +1,154 @@
+S3
+
+
+Simple Storage Service
+
+-> One of the longest service in aws.
+
+WHAT S3 DO?
+    -> A place to put your flat files
+    -> Text files, a file that doesnt change
+    -> picture or a video
+    -> s3 is basically a safe place to store your file 
+    -> Its object based Storage
+    -> The data is spread accross multiple devices and facilities.
+
+    THE BASICS OF S3
+        -> S3 is object based Storage
+        -> Files can be from 0 bytes to 5tb
+        -> there is unlimited changes.
+        -> Files are stored in buckets(folder in the cloud)
+        -> S3 is a universal namespace, the names needs to be unique globally
+        -> When you upload a file in s3 you will receive a HTTP CODE 200.
+
+    S3 is object based (Saber que S3 é key value)
+    Objects consists:
+        -> KEY ( this is simply the name of the object)
+        -> VALUE (This is simply the data and is made up of a sequence os bytes)
+        -> Version ID (Important for versioning)
+        -> Metadata (Data about data you are storing)
+        -> Subresources
+            -> Access Control Lists
+            -> Torrent
+
+    How does data consistency work for S3?
+        -> Read after Write consistency for PUTS of new objects.
+        -> Eventual Consistency for overwrite PUTS and DELETES 
+        -> If you write a new file and read it immediatelly afterwards, you will be able to view that data.
+        
+S3 HAS THE FOLLOWING FEATURES:
+    -> TIERED STORAGE AVAILABLE
+    -> LIFECYCLE MANAGEMENT
+    -> VERSIONING
+    -> ENCRYPTION
+    -> ACCESS CONTROL AND BUCKET POLICIES
+
+S3 STORAGE CLASS
+    -> S3 STANDARD: 
+        99,99% AVAILABILITY
+        99,99% DURABILITY
+        DESIGNED TO SUSTAIN THE LOSS OF 2 FACILITIES CONCUNRRENTLY
+    
+    -> S3 - IA
+        INFREQUENTLY ACCESSED
+        DATA THAT WAS ACCESSED LESS FREQUENTLY
+        BUT REQUIRE RAPID ACCESS WHEN NEEDED
+        LOWER FEE THAN S3 BUT YOU ARE CHARGED A RETRIAVAL FEE.
+
+    -> S3 ONE ZONE - IA
+        LOWER COST OPTION
+        INFREQUNTLY ACCESSED DATA 
+        BUT NOT REQUIRE THE MULTIPLE AVAILABILITY ZONE DATA RESILIENCE
+
+    -> S3 - INTELLIGENT TIERING
+        DESIGNED TO OPTIMIZE COSTS BY AUTOMATICALLY MOVING DATA TO THE MOST-COST EFFECTIVE ACCESS TIER
+        WITHOUT PERFORMANCE IMPACT OR OPERATIONAL OVERHEAD
+
+    -> S3 GLACIER
+        SECURE, DURABLE, AND LOW COST STORAGE CLASS FOR DATA ARCHIVING
+        RETRIEVAL TIME CONFIGURABLE FROM MINUTES TO HOURS
+
+    -> S3 GLACIER DEEP ARCHIVE
+        -> LOWER COST
+        -> RETRIEVAL OF 12HOURS TO ACCEPT.
+
+    
+YOU ARE CHARGED FOR S3 IN THE FOLLOWING WAYS:
+    -> STORAGE
+    -> REQUESTS
+    -> STORAGE MANAGEMETN PRICING
+    -> DATA TRANSFER PRICING
+    -> TRANSFER ACCELERATION
+    -> CROSS REGION REPLICATION PRICING
+
+EXAM TIPS
+
+    S3 IS OBJECT based
+    ALLOWS TO UPLOAD A Files
+    FILES CAN BE FROM 0 byte TO 5tb
+    THERE IS UNLIMITED STORAGE
+    FILES ARE STORED IN buckets
+    S3 IS A UNIVERSAL NAMESPACE, THE NAME MUST BE UNIQUE
+    NOT SUITABLE TO INSTALL ON A OPERATIONG SYSTEM
+    SUCCESSFULL UPLOADS WILL GENERATE A HTTP 200 STATUS CODE.
+
+THE KEY FUNDAMENTALS OF S3:
+    -> KEY ( THIS IS SIMPLE THE NAME OF THE OBJECT)
+    -> VALUE ( THIS IS SIMPLY THE DATA AND IS MADE UP OF A SUBSEQUENCE OF BYTES)
+
+READS AFTER WRITE CONSISTENCY FOR PUTS OF NEW OBJECT
+EVENTUAL CONSISTENCY FOR OVERWRITE PUTS AND DELETES ( CAN TAKE SOME TIME TO PROPAGATE)
+
+STORAGE CLASSES....
+
+RESTRICTING BUCKET ACCESS
+    -> BUCKET POLICIES : APPLIES ACCROSS THE WHOLE BUCKET
+    -> OBJECT POLICIES : APPLIES TO INDIVIDUAL FILES
+    -> IAM POLICIES : APPLIS TO USERS E GROUPS
+
+
+
+HOSTING A STATIC WEBSITE ON S3
+
+    -> YOU CAN USE BUCKET POLICES TO MAKE ENTIRE S3 BUCKETS PUBLIC.
+    -> DYNAMIC CANNOT HOSTED ON S3
+    -> S3 SCALES AUTOMATICALLY TO MEET YOUR DEMAND.
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

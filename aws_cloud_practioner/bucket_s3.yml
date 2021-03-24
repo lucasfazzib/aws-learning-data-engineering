@@ -1,0 +1,15 @@
+## Criar Template para Cloudformation (criação do bucket)
+
+
+Description: Cria um bucket s3.
+
+Resources:
+
+  BucketAllFilesxpto:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: bucket-all-files-xpto
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256

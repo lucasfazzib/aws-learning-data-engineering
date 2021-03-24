@@ -1,0 +1,8 @@
+Setting up a billing alarma
+
+
+-> CloudWatch
+    -> billing
+        -> create alarm
+        -> CREATE AND ACCEPT SNS TOPIC TO BE ALARMED WHEN THE THRESHOLD PASS.
+

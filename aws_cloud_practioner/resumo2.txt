@@ -1,0 +1,38 @@
+AWS GLOBAL INFRASTRUCTURE
+
+
+AVAILABILITY ZONE
+    -> A Data center 
+    -> A Data center is just a build with servers...
+    -> servers, networking gear, loadbalancers, storage files..
+    -> AVAILABILITY ZONE IS JUST A DATA CENTER
+
+REGION
+    -> GEOGRAPHICAL AREA
+    -> US WEST 1...
+    -> 2 OR MORE AVAILABILITY ZONES
+    - TODAYS REGIONS:
+        -> US EAST
+        -> US WEST
+        -> GOV CLOUD
+        -> CANADA
+        ....
+        emia
+        south america
+        asia pacific
+
+
+EDGES LOCATIONS
+    ->  We got more edges locations than REGIONS
+    ->  Edges locations are endpoints for AWS which are used for caching content
+    -> Typically it consists os CLOUDFRONT, AMAZON CONTENT DELIVERY NETWORK (CDN)
+    -> THEY ARE MANY MORE EDGE LOCATIONS THAN REGIONS.
+    -> If someone in London needs to acces a file in s3 bucket that is located in New York, the first time
+    that he access it, he will need to donwload the file, in the second time that someone in London
+    need to access that same file that will be cached in EDGE LOCATION. That can be downloaded a lot quicker.
+
+
+CHOOSING THE RIGHT AWS REGION ?
+    -> data sovereignty law
+    -> latency to the end users
+    -> AWS Services ( US-EAST-1 Always has the most services)
